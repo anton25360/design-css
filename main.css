@@ -51,8 +51,45 @@ html, body{
 }
 
 #loginBtn{
+    margin-top: 40px;
     background-color: rgb(64, 64, 255);
     color: white;
+    border:none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(64, 64, 255, 0.5), 0 6px 20px 0 rgba(64, 64, 255, 0.3);
+}
+
+.loginOptionsContainer{
+    /* border: 2px solid black; */
+    margin-top: 70px;
+}
+
+.loginTextSocial{
+    /* border: 2px solid red; */
+    display: inline;
+}
+
+.loginBtnSocial{
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.fBtn{
+    background-color: #1675eb;
+}
+
+.tBtn{
+    background-color: lightskyblue;
+}
+
+.gBtn{
+    background-color: #d74937;
 }
 
 /* right side */
