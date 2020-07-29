@@ -10,17 +10,26 @@
 <body>
 
     <div class="leftContainer">
-        <h1>Login</h1>
-        <p>Don't have an account? <a href="/">Create your account</a>, it takes less than a minute</p>
-        <input type="text" name="" id="">
-        <input type="password" name="" id="">
-        <p>remember me</p>
-        <p>Forgot Password?</p>
-        <button>LOGIN</button>
-        <p>or login with</p>
-        <button>Facebook</button>
-        <button>Twitter</button>
-        <button>Google+</button>
+        <div class="leftTextContainer">
+            <h1 style="font-size: 60px;">LOGIN</h1>
+            <p>Don't have an account?<br/><a style="text-decoration: none; color: blue;" href="/">Create one now</a>. It takes less than a minute.</p>
+            <br/>
+            <div class='inputContainer'><input type="text" name="username" id="username" placeholder="Username"></div>
+            <br/>
+            <div class='inputContainer'><input type="password" name="password" id="password" placeholder="Password"></div>
+
+            <div class="checkboxContainer">
+                <input type="checkbox" style="margin-top: 4px;">
+                <label id="checkboxLabel">Remember Me</label>
+                <p id="forgotPasswordText">Forgot Password?</p>
+            </div>
+
+            <button id="loginBtn">LOGIN</button>
+            <p>or login with</p>
+            <button>Facebook</button>
+            <button>Twitter</button>
+            <button>Google+</button>
+        </div>
     </div>
 
     <div class="rightContainer">
