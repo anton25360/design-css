@@ -3,7 +3,6 @@ html, body{
     margin: 0;
     height: 100%;
     display: flex;
-    /* justify-content:center; */
 }
 
 *{
@@ -20,7 +19,7 @@ html, body{
 .leftTextContainer{
     padding-left: 4vw;
     padding-right: 6vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
     font-size: 20px;
 }
 
