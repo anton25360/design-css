@@ -1,2 +1,3 @@
 # design-css
-designed by uplabs
+source from uplabs
+Live demo: https://anton25360.github.io/design-css/
